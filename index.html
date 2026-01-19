@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Giphy API Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>🎉 Giphy Party 🎉</h1>
+
+  <form id="gif-form">
+    <input
+      type="text"
+      id="search-input"
+      placeholder="Search for a GIF"
+      required
+    />
+    <button type="submit">Generate GIF</button>
+    <button type="button" id="clear-gifs-btn">Clear GIFs</button>
+  </form>
+
+  <div id="display-div">... GIFs will appear here ...</div>
+
+  <!-- Axios CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="index.js"></script>
+
+</body>
+</html>
